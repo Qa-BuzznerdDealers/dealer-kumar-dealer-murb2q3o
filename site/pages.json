@@ -27,12 +27,18 @@
     "status": "published",
     "seo": {
       "ogImage": null,
-      "noindex": false
+      "noindex": false,
+      "keywords": [
+        "keyword-1",
+        "keyword-2",
+        "keyword-3"
+      ]
     },
     "templates": {
       "header": null,
       "footer": null,
       "utilityNav": null
-    }
+    },
+    "description": "About us meta description"
   }
 ]
