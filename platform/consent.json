@@ -1,4 +1,5 @@
 {
   "mode": "opt-in",
-  "version": 1
+  "version": 1,
+  "revisitButton": false
 }
