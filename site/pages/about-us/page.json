@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "nodes": [
+    {
+      "id": "about-section",
+      "type": "section",
+      "props": {
+        "width": "boxed",
+        "background": "paper",
+        "paddingY": 7
+      },
+      "children": [
+        {
+          "id": "about-row",
+          "type": "row",
+          "props": {
+            "gap": 6,
+            "stackOn": "tablet"
+          },
+          "children": [
+            {
+              "id": "about-column",
+              "type": "column",
+              "props": {
+                "span": 7
+              },
+              "children": [
+                {
+                  "id": "about-heading",
+                  "type": "heading",
+                  "props": {
+                    "text": "About Our Company",
+                    "headingLevel": 1
+                  }
+                },
+                {
+                  "id": "about-text",
+                  "type": "text",
+                  "props": {
+                    "text": "BuzzNerd Dealer has been providing top-notch commercial trucks, trailers, and equipment since 1987. Our mission is to ensure customer satisfaction through quality products and outstanding service. We take pride in our knowledgeable team and our commitment to excellence."
+                  }
+                },
+                {
+                  "id": "about-buttons",
+                  "type": "buttons",
+                  "props": {
+                    "items": [
+                      {
+                        "ctaId": "browse-inventory"
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "about-image-column",
+              "type": "column",
+              "props": {
+                "span": 5
+              },
+              "children": [
+                {
+                  "id": "about-image",
+                  "type": "image",
+                  "props": {
+                    "image": {
+                      "src": "/media/company-image.jpg",
+                      "alt": "BuzzNerd Dealer Facility"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
