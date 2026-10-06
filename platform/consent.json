@@ -1,5 +1,13 @@
 {
   "mode": "opt-in",
   "version": 1,
-  "revisitButton": false
+  "categories": [
+    "analytics",
+    "marketing"
+  ],
+  "revisitButton": false,
+  "defaultOn": [
+    "analytics"
+  ],
+  "necessaryCategories": []
 }
