@@ -17,28 +17,5 @@
       "utilityNav": null
     },
     "pageType": "Home"
-  },
-  {
-    "slug": "about-us",
-    "dir": "about-us",
-    "title": "About Us",
-    "path": "/about-us",
-    "out": "about-us/index.html",
-    "status": "published",
-    "seo": {
-      "ogImage": null,
-      "noindex": false,
-      "keywords": [
-        "keyword-1",
-        "keyword-2",
-        "keyword-3"
-      ]
-    },
-    "templates": {
-      "header": null,
-      "footer": null,
-      "utilityNav": null
-    },
-    "description": "About us meta description"
   }
 ]

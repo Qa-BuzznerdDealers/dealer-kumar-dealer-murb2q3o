@@ -168,7 +168,11 @@
 // library the site loads, or onto an image, and the build publishes it in
 // `/partials/manifest.json` as `icons`. Unmapped slots keep the storefront's own
 // characters; a site with no file publishes no `icons` and nothing changes.
-export const RENDERER_VERSION = '4.25.0';
+// 4.26.0 — `ICON_SLOTS` lists the slots the storefront already draws beyond the first
+// fourteen: location, user, account, settings, quote, orders, fleet, signout, caret-down,
+// print, sparkle, chevron-down, photo-prev, photo-next. Before this a renderer refused them in
+// `site/icons.json`, so the build dropped them from the manifest and /store kept its defaults.
+export const RENDERER_VERSION = '4.26.0';
 
 export {
   LOCATION_SOURCE,
@@ -185,7 +189,6 @@ export {
 } from './location-pages.mjs';
 export { isValidPageType, pageTypeOptions } from './analytics-vocab.mjs';
 export { analyticsConfig, analyticsHead, missingIdentity } from './analytics.mjs';
-export { consentConfig, consentHead, consentGateScript, consentCategoryOf, gateMarkup, CONSENT_MODES } from './consent.mjs';
 
 export {
   BEHAVIOURS,
