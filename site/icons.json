@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "stylesheets": [],
+  "slots": {
+    "save": {
+      "class": "fa-solid fa-star"
+    }
+  }
+}
