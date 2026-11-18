@@ -1,9 +1,11 @@
 {
   "version": 1,
-  "stylesheets": [],
+  "stylesheets": [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  ],
   "slots": {
     "save": {
-      "class": "fa-solid fa-star"
+      "class": "fa-regular fa-star"
     }
   }
 }
